@@ -1,0 +1,32 @@
+
+table{
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div, h1 {
+  font-family: arial, sans-serif;
+}
+
+td.sequence {
+	font-family: Courier, monospace;
+}
+
+td, th {
+  border: 1px solid #303c63;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D2FDFF;
+}
+
+div.show {
+	display: block;
+}
+
+div.hide {
+    display: none;
+}

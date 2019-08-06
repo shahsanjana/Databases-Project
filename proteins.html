@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Protein/SNP/Disease</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="util.js"></script>
+<script src="proteins.js"></script>
+</head>
+<style>
+    body {
+        background-color: #B4DFE5
+    }
+</style>
+
+<body onload="renderproteins()">
+<body onload="renderdiseaseS()">
+    <h1 align="center"><u>Protein/SNP/Disease</u></h1>
+    <h2 align="center">A Web Application for linking UniProt accessions to dbSNPs to Omim IDs</h2>
+    <h3 align="center">Sanjana Shah</h3>
+    <h3 align="center"><a id="myLink" href="#" onclick="renderproteins();">dbSNP</a></h3>
+    <h3 align="center"><a id="myLink" href="#" onclick="renderdiseaseS();">Omim</a></h3>
+     <div id="search" style=text-align:center;>
+        <P>Search: <input size="20" onkeyup="keypress(this,event);" autofocus /></P>
+    </div>
+    <div id="container" />
+
+</body>
+
+
+</html>
