@@ -1,0 +1,5 @@
+CREATE TABLE universal_table (
+Uniprot_AC VARCHAR(255) NULL,
+Source_DB_ID VARCHAR(255) NULL,
+OMIM_ID VARCHAR(255) NULL
+);
